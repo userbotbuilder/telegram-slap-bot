@@ -3,10 +3,10 @@ from gtts import gTTS
 # import os
 # import random
 
-api_id = 12345
-api_hash = 'abcdefg'
-bot_token = '123:abc'
-tg_group = 'my_group'
+api_id = 913414
+api_hash = 'e1f35bbc705e05e245aea455083f7040'
+bot_token = '927467383:AAGmCO4PsCBHxEqheSU8aVcUMehjXULfNGQ'
+tg_group = 'KinoUndCoByLoco'
 
 client = TelegramClient('slap', api_id, api_hash)
 client.start(bot_token=bot_token)
@@ -18,7 +18,7 @@ async def handler(event):
     sender = (await event.get_sender()).first_name
     slapped = random.choice(users)
 
-    await event.reply(sender + ' has slapped @' + slapped.username)
+    await event.reply(sender + ' hat die Flasche gedreht zu @' + slapped.username)
 
 # TTS action
 """

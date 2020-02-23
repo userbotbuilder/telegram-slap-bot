@@ -3,7 +3,7 @@ from gtts import gTTS
 # import os
 # import random
 
-api_id = 913414
+api_id = '913414'
 api_hash = 'e1f35bbc705e05e245aea455083f7040'
 bot_token = '927467383:AAGmCO4PsCBHxEqheSU8aVcUMehjXULfNGQ'
 tg_group = 'KinoUndCoByLoco'
